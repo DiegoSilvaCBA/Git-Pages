@@ -20,12 +20,13 @@ body {
     margin-right: 50px;
 }
 
-.flex {
+.flex01 {
     display: flex;
 }
 
 header {
-    padding-left: 25px;
+    padding: 25px 0px 80px 50px ;
+    
 }
 
 header > .tela-principal {
@@ -63,9 +64,10 @@ section.interface-principal {
     padding: 50px 5%;
 }
 
-section.interface-principal.flex {
+section.interface-principal.flex01 {
     align-items: center;
     justify-content: center;
+    gap: 90px;
 }
 
 .inicio-site > h1{
@@ -78,6 +80,9 @@ section.interface-principal.flex {
     color: white;
     font-size: 20px;
     margin: 40px 0px;
+    padding-top: 28px;
+    padding-right: 100px;
+    padding-bottom: 30px;
 }
 
 .btn-contato {
@@ -96,4 +101,41 @@ section.interface-principal.flex {
     background-color: #00fff2;
     transform: scale(1.10);
     transition: 0.2s;
+}
+
+.perfil-img-nome > p.descricao-perfil {
+    color: #ffffff;
+    font-size: 18px;
+    text-align: center;
+    padding-top: 25px;
+}
+
+/*sobre mim*/
+
+section.sobre-mim {
+    padding: 32px 5%;
+}
+
+.flex02 {
+    display: flex;
+}
+
+section.sobre-mim.flex02 {
+    align-items: center;
+    justify-content: center;   
+}
+
+.informacoes {
+    margin: 80px 80px;
+}
+
+.biografia > h2 {
+    color: #00fff2;
+}
+
+.biografia > p {
+    font-size: 18px;
+    margin: 30px 0px;
+    padding-right: 100px;
+    margin: 20px;
 }
