@@ -93,22 +93,23 @@ section.interface-principal.flex01 {
     padding-bottom: 30px;
 }
 
-.btn-contato {
-    color: #00fff2;
-    background-color: black;
-    border: 2px solid #00fff2;
-    padding: 10px 35px;
-    font-size: 20px;
-    font-weight: 500;
-    border-radius: 30px;
-    cursor: pointer;
+.btn-social {
+  
 }
 
-.btn-contato:hover {
-    color: black;
-    background-color: #00fff2;
-    transform: scale(1.10);
-    transition: 0.2s;
+.btn-social > a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 70px;
+    background: transparent;
+    border: 2px solid #00fff2;
+    border-radius: 50%;
+    font-size: 40px;
+    color: #00fff2;
+    text-decoration: none;
+    margin: 0 25px 0px 30px;
 }
 
 .perfil-img-nome > img{
