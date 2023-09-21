@@ -80,12 +80,13 @@ section.interface-principal.flex01 {
     color: #00fff2;
     font-size: 50px;
     line-height: 68px;
-    padding-top: 250px;
+    padding-top: 200px;
 }
 
 .inicio-site > p {
     color: white;
     font-size: 20px;
+    text-align: justify;
     margin: 40px 0px;
     padding-top: 0px;
     padding-right: 100px;
@@ -117,8 +118,14 @@ section.interface-principal.flex01 {
 .perfil-img-nome > p.descricao-perfil {
     color: #ffffff;
     font-size: 18px;
-    text-align: center;
-    padding-top: 25px;
+    
+    margin-left: 90px;
+    padding-top: 10px;
+    border-right: 4px black, solid;
+    width: 21ch;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: digitando-nome 2s steps(21), piscando-letras 0.8s;
 }
 
 /*sobre mim*/
@@ -141,13 +148,53 @@ section.sobre-mim.flex02 {
     margin: 80px 80px;
 }
 
+.biografia {
+    max-width: 60%;
+}
+
 .biografia > h2 {
     color: #00fff2;
+    text-align: justify;
 }
 
 .biografia > p {
     font-size: 18px;
+    text-align: justify;
     margin: 30px 0px;
     padding-right: 100px;
     margin: 20px;
+}
+
+.habilidades {
+    max-width: 35%;
+    padding-left: 12vh;
+    padding-top: 70px;
+}
+
+.habilidades > h3 {
+    color: #00fff2;
+    padding-bottom: 10px;
+}
+
+.soft-skills {
+    max-width: 25%;
+    padding-left: 15vh;
+    padding-top: 70px;
+}
+
+.soft-skills > h3 {
+    color: #00fff2;
+    padding-bottom: 10px;
+}
+
+@keyframes digitando-nome {
+    from {
+        width: 0;
+    }
+}
+
+@keyframes piscando-letras {
+    50% {
+        border-color: transparent;
+    }
 }
