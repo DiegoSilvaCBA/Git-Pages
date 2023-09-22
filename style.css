@@ -279,6 +279,75 @@ section.blog {
     margin-left: 100px;
 }
 
+/*Formulario de contato*/
+
+section.formulario-contato {
+    padding: 80px 4%;
+}
+
+
+h2.titulo {
+    color: #00fff2;
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+form input {
+    width: 100%;
+    font-size: 16px;
+    color: white;
+    background-color: #69666646;
+    border-color: #00fff2;
+    outline: none;
+    padding: 20px 15px;
+    border-radius: 20px;
+}
+
+textarea {
+    resize: none;
+    max-height: 200px;
+    width: 100%;
+    font-size: 18px;
+    color: white;
+    background-color: #69666646;
+    border-color: #00fff2;
+    outline: none;
+    padding: 20px 15px;
+    border-radius: 20px;
+}
+
+form.btn-enviar {
+    margin-top: 20px;
+    align-items: center;
+    text-align: center;
+}
+
+form .btn-enviar input {
+    width: 300px;
+    background-color: #00fff2;
+    color: #000000;
+    font-weight: 300;
+    cursor: pointer;
+    margin-left: auto; /* Centraliza à direita */
+    margin-right: auto; /* Centraliza à esquerda */
+    display: block;
+}
+
+.btn-enviar:hover {
+    transform: scale(1.10);
+    transition: 0.2s;
+}
+
 @keyframes digitando-nome {
     from {
         width: 0;
