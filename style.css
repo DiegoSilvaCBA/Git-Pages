@@ -209,6 +209,7 @@ section.projetos .flex {
 
 .container-descricao > p {
     font-size: 20px;
+    padding-right: 30px;
     text-align: justify;
     padding-top: 35px;
 }
@@ -216,6 +217,7 @@ section.projetos .flex {
 .img-port {
     width: 500px;
     height: 500px;
+    padding-left: 200px;
     background-color: #00fff2;
 }
 
