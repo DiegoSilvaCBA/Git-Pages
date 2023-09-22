@@ -189,12 +189,13 @@ section.sobre-mim.flex {
 
 section.projetos .flex {
     justify-content: space-around;
+    margin-left: 65px;
 }
 
 .amostras > h2 {
     color: #00fff2;
     text-align: center;
-    padding-bottom: 60px;
+    padding-bottom: 50px;
 }
 
 .img-port {
