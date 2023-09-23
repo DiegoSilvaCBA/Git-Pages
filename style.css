@@ -284,7 +284,7 @@ section.blog {
 /*Formulario de contato*/
 
 section.formulario-contato {
-    padding: 80px 4%;
+    padding: 80px 4% 200px;
 }
 
 
@@ -348,6 +348,30 @@ form .btn-enviar input {
 .btn-enviar:hover {
     transform: scale(1.10);
     transition: 0.2s;
+}
+
+/*rodapé*/
+
+footer {
+    padding: 25px 4%;
+    box-shadow: 0 0 0 5px #00fff2;
+}
+
+footer .flex {
+    justify-content: space-between;
+}
+
+footer .flex .informaoes-footer {
+    text-align: center; 
+    font-size: 18px;
+    padding-left: 230px;
+}
+
+.logo {
+    font-size: 50px;
+    color: #00fff2;
+    text-align: center;
+    padding-left: 50px;
 }
 
 @keyframes digitando-nome {
