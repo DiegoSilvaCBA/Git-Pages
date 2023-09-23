@@ -382,3 +382,26 @@ footer .flex .informaoes-footer {
         border-color: transparent;
     }
 }
+
+@media screen and (max-width: 1745px) {
+
+    body {
+        padding-left: 10;
+        padding-right: 10px;
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .flex {
+        flex-direction: column;
+        
+    }
+
+    .interface-principal .flex {
+        flex-direction: column-reverse;
+    }
+
+    .menu {
+        display: none;
+    }
+}
