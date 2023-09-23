@@ -14,12 +14,6 @@ body {
     height: 100vh;
 }
 
-.tela-principal {
-    max-width: 1280px;
-    margin-left: 50px;
-    margin-right: 50px;
-}
-
 .flex {
     display: flex;
 }
@@ -39,6 +33,9 @@ header > .tela-principal {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    max-width: 1280px;
+    margin-left: 200px;
+    margin-right: 50px;
 }
 
 
