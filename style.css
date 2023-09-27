@@ -342,6 +342,19 @@ form .btn-enviar input {
     display: block;
 }
 
+.success,
+.error {
+  text-align: center;
+}
+
+.success {
+  color: rgb(0, 255, 13);
+}
+
+.error {
+  color: #ff2903;
+}
+
 .btn-enviar:hover {
     transform: scale(1.10);
     transition: 0.2s;
