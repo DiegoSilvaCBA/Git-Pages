@@ -38,7 +38,6 @@ header > .tela-principal {
     margin-right: 50px;
 }
 
-
 header a {
     color: white;
     text-decoration: none;
@@ -186,15 +185,13 @@ section.sobre-mim.flex {
 
 /*projetos*/
 
-section.projetos {
-
-}
 
 section.projetos .flex {
     justify-content: space-around;
     margin-left: 100px;
     padding-bottom: 180px;
 }
+
 
 .amostras > h2 {
     color: #00fff2;
@@ -205,7 +202,6 @@ section.projetos .flex {
 .container-descricao {
     text-align: justify;
     display: inline-block;
-    width: 100%;
     padding-right: 120px;
 }
 
@@ -214,13 +210,25 @@ section.projetos .flex {
     padding-right: 30px;
     text-align: justify;
     padding-top: 35px;
+    padding-bottom: 20px;
+}
+
+.container-descricao > a {
+    font-size: 16px;
+    color: #00fff2;
+    padding-left: 150px;
+}
+
+.container-descricao > a:hover {
+    transform: scale(1.10);
+    transition: 0.2s;
 }
 
 .img-port {
     width: 400px;
     height: 400px;
     padding-left: 450px;
-    background-color: #00fff2;
+    background-repeat: no-repeat;
 }
 
 .img-port:hover {
@@ -342,8 +350,8 @@ form .btn-enviar input {
     color: #000000;
     font-weight: 300;
     cursor: pointer;
-    margin-left: auto; /* Centraliza à direita */
-    margin-right: auto; /* Centraliza à esquerda */
+    margin-left: auto;
+    margin-right: auto;
     display: block;
 }
 
@@ -376,10 +384,10 @@ footer .flex {
     justify-content: space-between;
 }
 
-footer .flex .informaoes-footer {
+footer .flex .informacoes-footer {
     text-align: center; 
     font-size: 18px;
-    padding-left: 230px;
+    padding-left: 350px;
 }
 
 .logo {
@@ -424,12 +432,24 @@ footer .flex .informaoes-footer {
         text-align: right;
     }
 
+    .amostras > h2 {
+        padding-left: 20px;
+    }
+
     section.sobre-mim {
         width: 100%;
     }
 
     .informacoes {
         width: 100%;
+    }
+
+    section.projetos .flex {
+        padding-bottom: 50px;
+    }
+
+    .container-descricao > p {
+        padding-bottom: 100px;
     }
 
     .biografia > p {
