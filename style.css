@@ -186,6 +186,10 @@ section.sobre-mim.flex {
 
 /*projetos*/
 
+section.projetos {
+
+}
+
 section.projetos .flex {
     justify-content: space-around;
     margin-left: 100px;
@@ -397,25 +401,52 @@ footer .flex .informaoes-footer {
     }
 }
 
-@media screen and (max-width: 1745px) {
+@media screen and (max-width: 900px) {
 
     body {
-        padding-left: 10;
-        padding-right: 10px;
-        font-size: 16px;
         text-align: center;
+        font-size: 16px;
+    }
+
+    header.tela-principal {
+        
     }
 
     .flex {
         flex-direction: column;
-        
     }
 
     .interface-principal .flex {
         flex-direction: column-reverse;
     }
 
-    .menu {
-        display: none;
+    .inicio-site > p {
+        padding-left: 100px;
+    }
+
+    .descriaco-perfil {
+        text-align: right;
+    }
+
+    section.sobre-mim {
+        width: 100%;
+    }
+
+    .informacoes {
+        width: 100%;
+    }
+
+    .biografia > p {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+
+    section.formacoes .instituicoes {
+        padding-bottom: 200px;
+    }
+
+    section.blog > p > h3 {
+        
     }
 }
